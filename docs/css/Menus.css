@@ -4,8 +4,8 @@
 }
 
 .ul {
-  list-style-type: none;
   display: inline-block;
+  margin: 10px auto 10px auto;
   font-size: 20px;
 }
 
@@ -14,14 +14,11 @@
   padding: 10px 30px;
 }
 
-.background-color {
+.menu-outline {
   background-color: yellow;
+  text-align: center;
 }
 
 .padding {
   padding: 10px 0px;
-}
-
-.align-center {
-  text-align: center;
 }
