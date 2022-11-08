@@ -1,0 +1,23 @@
+.text-weight {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.ul {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.li {
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+.background-color {
+  background-color: yellow;
+}
+
+.padding {
+  padding: 10px 0px;
+}
