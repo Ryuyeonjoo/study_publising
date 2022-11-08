@@ -1,3 +1,7 @@
+* {
+  border: 1px dotted black;
+}
+
 .text-weight {
   font-size: 40px;
   font-weight: 900;
@@ -20,4 +24,8 @@
 
 .padding {
   padding: 10px 0px;
+}
+
+.align-center {
+  text-align: center;
 }
