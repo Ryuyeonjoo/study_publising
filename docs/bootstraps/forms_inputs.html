@@ -9,24 +9,31 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous">
     <link rel="stylesheet" href="./css/commons.css" />
   </head>
   <body>
-    <div class="fs-3">Collapses</div>
+    <div class="fs-2">Forms</div>
     <div>
-      <a class="btn btn-primary" href="#collapseTarget" data-bs-toggle="collapse">link with href</a>
-      <button class="btn btn-primary" data-bs-target="#collapseTarget">link with data-bs-target</button>
+      <div class="fs-3">Input SIzing</div>
+      <input type="text" class="form-control-lg">
+      <input type="text" class="form-control">
+      <input type="text" class="form-control form-control-sm">
     </div>
-    <hr>
-    <div class="collapse" id="collapseTarget">
-      <div class="card card-body">
-        정부 "'실내마스크 착용 의무' 최종 조정방안 이달 말까지 마련"
+    <div>
+      <div>
+        <label for="" class="form-label">text area</label>
+        <textarea class="form-control" name="" id="" cols="" rows="5"></textarea>
       </div>
     </div>
-    <hr>
-
+    <div>
+      <div class="fs-3">form-control</div>
+      <div>
+        <label for="" class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="Input Text!" name=""  id="" />
+        <input type="email" class="form-control" readonly placeholder="Input Text!" name=""  id="" />
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -34,7 +41,7 @@
       crossorigin="anonymous"
     ></script>
     <h4>
-      <a href="../bootstraps/index.html" target="_self">>>index</a>
+      <a href="./index.html" target="_self">>>index</a>
     </h4>
   </body>
 </html>
